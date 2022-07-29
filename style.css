@@ -6,22 +6,17 @@ body {
     background-color: #F2EBE3;
 }
 
-fieldset {
-    border-radius: 20px;
-    size:
-}
-
 .left {
     background: url(image-product-desktop.jpg);
     background-size: cover;
     background-position: center;
     width: 50%;
-    height: 50vh;
+    height: 70vh;
 }
 
 .right {
     background: white;
-    height: 50vh;
+    height: 70vh;
     width: 50%;
 }
 
@@ -66,14 +61,15 @@ h5 {
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
-    font-family: Arial;
-    font-size: 20px;
     padding: 13px 32px;
     text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .myButton:hover {
-    background-color: #00ddff;
+    background-color: #274f40;
 }
 
 .myButton:active {
