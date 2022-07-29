@@ -1,0 +1,82 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #F2EBE3;
+}
+
+fieldset {
+    border-radius: 20px;
+    size:
+}
+
+.left {
+    background: url(image-product-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 50vh;
+}
+
+.right {
+    background: white;
+    height: 50vh;
+    width: 50%;
+}
+
+#screen {
+    display: flex;
+}
+
+h5 {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6C7289;
+}
+
+#Gabrielle {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: #1C232B;
+}
+
+#description {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6C7289;
+}
+
+#price {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: #3C8067;
+}
+
+#old-price {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6C7289;
+}
+
+.myButton {
+    box-shadow: inset 0px 10px 14px -7px #276873;
+    background-color: #3c8067;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 13px 32px;
+    text-decoration: none;
+}
+
+.myButton:hover {
+    background-color: #00ddff;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
