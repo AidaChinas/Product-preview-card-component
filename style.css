@@ -31,7 +31,7 @@ body {
 
 .right {
     background: white;
-    padding: 2rem;
+    padding: 1.5rem;
     box-sizing: border-box;
     width: 50%;
 }
@@ -42,16 +42,16 @@ body {
 
 .card {
     display: flex;
-    width: 500px;
+    width: 550px;
     min-height: 350px;
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
-
+    height: 400px;
 
 }
 
 h5 {
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Montserrat', sans-serif;
     color: #6C7289;
 }
@@ -62,12 +62,12 @@ h5 {
 
 #Gabrielle {
     font-family: 'Fraunces', serif;
-    font-size: 30px;
+    font-size: 26px;
     color: #1C232B;
 }
 
 #description {
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Montserrat', sans-serif;
     color: #6C7289;
 }
@@ -94,9 +94,9 @@ h5 {
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
-    padding: 13px 32px;
+    padding: 10px 55px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Montserrat', sans-serif;
 
 }
